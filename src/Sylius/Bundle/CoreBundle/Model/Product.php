@@ -86,6 +86,7 @@ class Product extends BaseProduct implements ProductInterface
     {
         parent::__construct();
 
+        // CA MARCHE PAS²
         $this->setMasterVariant(new Variant());
         $this->taxons = new ArrayCollection();
 
